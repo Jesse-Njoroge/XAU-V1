@@ -1,6 +1,6 @@
 # XAUUSD Cross-Asset Model V1
 
-An algorithmic trading system for **Gold (XAU/USD)** that predicts next-day directional drift using cross-asset market data, gated by a **3-state volatility-triggered Markov regime switch**. Executes trades via **MetaTrader 5**.
+This is an algorithmic trading system for **Gold (XAU/USD)** that predicts next-day directional drift using cross-asset market data, gated by a **3-state volatility-triggered Markov regime switch**. Executes trades via **MetaTrader 5**.
 
 ---
 
