@@ -65,6 +65,7 @@ def print_section(title):
     print(color_text(f"\n--- {title} ---", MAGENTA))
 
 
+
 class MarkovRegime:
     def __init__(self):
         self.n_states = 3
