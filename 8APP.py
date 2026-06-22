@@ -38,6 +38,7 @@ MT5_SERVER = "ExnessKE-MT5Trial9"
 def color_text(text, color):
     return f"{color}{text}{RESET}"
 
+
 def print_banner():
     print(color_text("\n============================================================", CYAN))
     print(color_text("XAUUSD MARKOV BOT", BOLD + GREEN))
