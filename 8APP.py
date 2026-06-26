@@ -7,7 +7,6 @@ from math import floor
 import time
 
 
-
 SYMBOL = "XAUUSDm" 
 MAGIC_NUMBER = 123456
 RISK_PERCENT = 0.05
