@@ -6,7 +6,7 @@ This is an algorithmic trading system for **Gold (XAU/USD)** that predicts next-
 
 ## Core Hypothesis
 
-**Gold's daily return can be predicted one day ahead using a linear combination of:**
+**Gold's daily return can be predicted one day ahead using a linear combination of**
 
 | Predictor | Source | Why it matters |
 |---|---|---|
@@ -47,7 +47,7 @@ All 5 are inner-joined on date, keeping only days where all markets were open (~
 | `VIX_Diff` | `Close_t - Close_t-1` | Point difference (VIX) |
 | **Target** | `XAU_Returns.shift(-1)` | **Tomorrow's gold return** |
 
-Prices use log returns (percentage-based). Yields and VIX use point differences because they can cross zero. The target is tomorrow's gold return — we predict forward.
+Prices use log returns (percentage-based). Yields and VIX use point differences because they can cross zero. The target is tomorrow's gold return — we predict forward
 
 Saved to `database/feature_matrix.csv`.
 
