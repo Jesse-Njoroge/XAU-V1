@@ -109,7 +109,7 @@ Each notebook trains `sklearn.linear_model.LinearRegression` on 70% of data (30%
 - **SPX** is mildly negative in Low/High vol but positive in Mid vol
 - In **High vol**, all coefficients except lagged Gold are negative — broad risk-off liquidation across all asset classes
 
-Coefficients saved to `database/*_COEFFICIENTS.csv`.
+Coefficients saved to `database/*_COEFFICIENTS.csv`
 
 ---
 
