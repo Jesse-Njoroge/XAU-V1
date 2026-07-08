@@ -53,7 +53,7 @@ Saved to `database/feature_matrix.csv`.
 
 ### 3. Regime Labelling (`3REGIME_LABELLING.ipynb`)
 
-A **custom Markov regime model** classifies each day into one of 3 volatility states
+A **custom Markov regime model** classifies each day into one of 3 volatility states:
 
 #### Calibration (first ~100 bars)
 1. Compute daily volatility: `(High - Low) / Close`
