@@ -6,7 +6,7 @@ This is an algorithmic trading system for **Gold (XAU/USD)** that predicts next-
 
 ## Core Hypothesis
 
-**Gold's daily return can be predicted one day ahead using a linear combination of**
+**Gold's daily return can be predicted one day ahead using a linear combination of:**
 
 | Predictor | Source | Why it matters |
 |---|---|---|
