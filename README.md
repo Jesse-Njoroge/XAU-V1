@@ -16,7 +16,7 @@ This is an algorithmic trading system for **Gold (XAU/USD)** that predicts next-
 | Today's change in US 10Y yield | US10Y | Opportunity cost of holding gold |
 | Today's change in VIX | VIX | Fear / flight-to-safety |
 
-**BUT** — the relationship between these predictors and gold's next-day return is **regime-dependent**. The market behaves fundamentally differently depending on whether volatility is low, medium, or high. The model first detects the volatility regime, then applies a regime-specific linear regression to generate the directional signal.
+**BUT** — the relationship between these predictors and gold's next-day return is **regime-dependent**. The market behaves fundamentally differently depending on whether volatility is low, medium, or high. The model first detects the volatility regime, then applies a regime-specific linear regression to generate the directional signal
 
 ---
 
