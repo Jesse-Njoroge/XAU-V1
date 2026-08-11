@@ -69,6 +69,7 @@ A **custom Markov regime model** classifies each day into one of 3 volatility st
 
 #### The 3 Regimes
 
+
 | Regime | Label | Color | Meaning |
 |---|---|---|---|
 | 0 | **Low Volatility** | Green | Calm, orderly market |
