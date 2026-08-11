@@ -36,6 +36,7 @@ Pulls daily OHLC data for 5 assets from **TradingView** (`tvDatafeed`):
 
 All 5 are inner-joined on date, keeping only days where all markets were open (~3,700 rows from 2010–present). Saved to `database/database.csv`
 
+
 ### 2. Feature Engineering (`2FEATURE_ENGINEERING.ipynb`)
 
 | Feature | Formula | Type |
