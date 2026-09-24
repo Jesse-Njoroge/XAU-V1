@@ -93,7 +93,7 @@ Splits the labeled data into 3 regime-specific training files (features only):
 
 ### 5–7. Training (`5TRAINING0_LOW_VOL.ipynb`, `6TRAINING1_MID_VOL.ipynb`, `7TRAINING2_HIGH_VOL.ipynb`)
 
-Each notebook trains `sklearn.linear_model.LinearRegression` on 70% of data (30% test split) — 5 features predicting `Target_Next_Day_Gold`.
+Each notebook trains `sklearn.linear_model.LinearRegression` on 70% of data (30% test split) — 5 features predicting `Target_Next_Day_Gold`
 
 #### Trained Coefficients
 
